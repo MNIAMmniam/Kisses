@@ -1,0 +1,28 @@
+ <html>
+        <head>
+            <title>JSExample</title>
+        </head>
+    
+        <body>
+    
+            <script type="text/javascript">
+                function hello() {
+                   alert("Hello there!");
+    			   countClicks++;
+                }
+    
+                var countClicks = 0;
+    
+                function upCount() { 
+    				alert(countClicks);
+                }
+    
+            </script>
+    
+            <p><input type="button" name="button" value="Saying Hello" id="hello" onclick="hello();"/></p>
+    
+            <p><input type="button" name="click" value="Counting" id="click" onclick="upCount();"/></p>
+    
+        </body>
+    
+    </html>
